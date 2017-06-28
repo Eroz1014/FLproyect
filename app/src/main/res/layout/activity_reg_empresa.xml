@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:id="@+id/Layout"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <custom_font.MyTextView
+            android:id="@+id/signin1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inicia Sesion"
+            android:textSize="16dp"
+            android:layout_gravity="right"
+            android:gravity="end"
+            android:textColor="#2C3646"
+            />
+
+
+
+        <custom_font.MyEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de empresa"
+            android:inputType="text"
+            android:textColorHint="#a9b0c3"
+            android:textSize="13dp"
+            android:background="#00000000"
+            android:layout_marginTop="42dp"
+
+            android:id="@+id/nombemp" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#a9b0c3"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <custom_font.MyEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ubicacion"
+            android:inputType="text"
+            android:textColorHint="#a9b0c3"
+            android:textSize="13dp"
+            android:background="#00000000"
+            android:layout_marginTop="42dp"
+
+            android:id="@+id/regubi" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#a9b0c3"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <custom_font.MyEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripcion"
+            android:inputType="text"
+            android:textColorHint="#a9b0c3"
+            android:textSize="13dp"
+            android:background="#00000000"
+            android:layout_marginTop="42dp"
+
+            android:id="@+id/descripcion" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#a9b0c3"
+            android:layout_marginTop="10dp"
+
+            />
+        <custom_font.MyEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Correo"
+            android:inputType="text"
+            android:textColorHint="#a9b0c3"
+            android:textSize="13dp"
+            android:background="#00000000"
+            android:layout_marginTop="42dp"
+
+            android:id="@+id/empcorr" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#a9b0c3"
+            android:layout_marginTop="10dp"
+
+            />
+
+
+
+        <custom_font.MyEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Contraseña"
+            android:inputType="textPassword"
+            android:textColorHint="#a9b0c3"
+            android:layout_marginTop="32dp"
+            android:textSize="13dp"
+            android:background="#00000000"
+
+            android:id="@+id/empcontraseña" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#a9b0c3"
+            android:layout_marginTop="10dp"
+            />
+
+
+        <custom_font.MyTextView
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Continuar"
+            android:textStyle="bold"
+            android:background="@drawable/round"
+            android:textColor="#CBD1DC"
+            android:gravity="center"
+            android:padding="14dp"
+            android:layout_marginTop="42dp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
